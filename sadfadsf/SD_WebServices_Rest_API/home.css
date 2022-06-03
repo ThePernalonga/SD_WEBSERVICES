@@ -1,0 +1,75 @@
+  /* add dark theme */
+  body {
+    background-color: #1f1f1f;
+    color: #f6f6f6
+  }
+
+  .container-fluid {
+    display: flex;
+    max-width: 50%;
+    align-items: center;
+    vertical-align: middle;
+  }
+
+  .navbar {
+    background-color: rgba(0, 255, 255, 0.479);
+    display: flex;
+    height: 100px;
+    text-align: center;
+  }
+
+  .navbar-brand {
+    margin: auto;
+    font-size: 3rem;
+  }
+
+  .panel {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  h3 {
+    display: flex;
+    align-self: flex-start;
+    color: red;
+    border-bottom: 1px solid white;
+  }
+
+  p {
+    display: flex;
+    align-self: flex-start;
+    font-size: 2rem;
+  }
+
+  .button-style {
+    color: #f6f6f6 !important;
+    border: 1px solid #1f1f1f;
+    border-radius: 5px;
+    padding: 10px;
+    height: 40px;
+    margin: 10px;
+
+  }
+
+  .btn-group {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin: 5px 0;
+    align-self: center;
+    width: 100%;
+
+  }
+
+  .pstyle {
+    font-size: 2rem;
+    font-family: verdana, sans-serif;
+  }
+
+  .button-groups-container {
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
